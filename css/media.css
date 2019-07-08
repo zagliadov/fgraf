@@ -1,0 +1,78 @@
+
+@media (max-width: 320px) {
+    .container {
+        width: 100%;
+    }  
+    .header__logo {
+        width: 100%;
+        background: url(../content/logo.png) 50% 30% no-repeat,
+                    url(../content/Photography.png) 50% 75% no-repeat;
+    }
+    /********************hello im dakota**/
+    
+
+}
+@media (max-width: 460px) {
+    
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+   
+    /**Удаляем обьектив**/
+    .ex_container {
+        display: none;
+     }
+     /*адаптивное меню*/
+     .ss {
+         display: block;
+     }
+     /*******************************Удаляем обьектив**/
+    /**Заставка по центру**/
+    .bgc-over {
+        width: 100%;
+        height: 100vh;
+        background: url(../content/pexels3.svg) 50% 50% no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+    }
+    .bgc {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(43, 45, 92, 0.9);
+    }
+    /*****************************Заставка по центру end**/
+    .header__nav {
+        display: none;
+    }
+    .header__logo {
+        
+        background: url(../content/logo.png) 50% 30% no-repeat,
+                    url(../content/Photography.png) 50% 75% no-repeat;
+    }
+    .section__person {
+        height: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 100%;
+        /* width: 1170px; */
+    }
+
+    
+    
+}
+@media (min-width: 1400px) {
+    .container {
+        width: 100%;
+        /* width: 1170px; */
+    }
+} 
